@@ -159,38 +159,46 @@ export default function MyAlphasPage() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-          <div className="glass-panel rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-[#00FF88] mb-2">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-8">
+          <div className="glass-panel rounded-xl p-3 sm:p-4 text-center">
+            <div className="text-xl sm:text-2xl font-bold text-[#00FF88] mb-1 font-mono">
               {myAlphas.length}
             </div>
-            <div className="text-gray-400">Total Alphas</div>
+            <div className="text-xs sm:text-sm text-gray-400 font-mono">
+              Total
+            </div>
           </div>
-          <div className="glass-panel rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-green-400 mb-2">
+          <div className="glass-panel rounded-xl p-3 sm:p-4 text-center">
+            <div className="text-xl sm:text-2xl font-bold text-green-400 mb-1 font-mono">
               {
                 myAlphas.filter(
                   (alpha) => !alpha.settled && !isExpired(alpha.expiry)
                 ).length
               }
             </div>
-            <div className="text-gray-400">Active</div>
+            <div className="text-xs sm:text-sm text-gray-400 font-mono">
+              Active
+            </div>
           </div>
-          <div className="glass-panel rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-yellow-400 mb-2">
+          <div className="glass-panel rounded-xl p-3 sm:p-4 text-center">
+            <div className="text-xl sm:text-2xl font-bold text-yellow-400 mb-1 font-mono">
               {
                 myAlphas.filter(
                   (alpha) => !alpha.settled && isExpired(alpha.expiry)
                 ).length
               }
             </div>
-            <div className="text-gray-400">Expired</div>
+            <div className="text-xs sm:text-sm text-gray-400 font-mono">
+              Expired
+            </div>
           </div>
-          <div className="glass-panel rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-blue-400 mb-2">
+          <div className="glass-panel rounded-xl p-3 sm:p-4 text-center">
+            <div className="text-xl sm:text-2xl font-bold text-blue-400 mb-1 font-mono">
               {myAlphas.filter((alpha) => alpha.settled).length}
             </div>
-            <div className="text-gray-400">Settled</div>
+            <div className="text-xs sm:text-sm text-gray-400 font-mono">
+              Settled
+            </div>
           </div>
         </div>
 
