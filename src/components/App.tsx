@@ -92,7 +92,7 @@ export default function App() {
             <div className="absolute inset-0 blur-2xl bg-[#00FF88]/30 rounded-full animate-pulse"></div>
             <div className="relative w-24 h-24 md:w-28 md:h-28">
               <Image
-                src="/r-logo.png"
+                src="/logo.png"
                 alt="RAPTOR Logo"
                 fill
                 className="object-contain drop-shadow-[0_0_15px_rgba(0,255,136,0.5)]"

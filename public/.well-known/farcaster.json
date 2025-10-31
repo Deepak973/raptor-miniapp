@@ -1,18 +1,20 @@
 {
   "frame": {
-    "name": "EOA",
+    "name": "Raptor",
     "version": "1",
-    "iconUrl": "https://aave-earn.vercel.app/icon.png",
-    "homeUrl": "https://aave-earn.vercel.app",
-    "splashImageUrl": "https://aave-earn.vercel.app/splash.png",
-    "splashBackgroundColor": "#0b0c0f",
-    "subtitle": "Earn on Aave",
-    "description": "Put your crypto to work. Supply assets to earn interest from borrowers on Aave.",
+    "iconUrl": "https://https://raptor-miniapp.vercel.app/icon.png",
+    "homeUrl": "https://https://raptor-miniapp.vercel.app",
+    "imageUrl": "https://https://raptor-miniapp.vercel.app/image.png",
+    "splashImageUrl": "https://https://raptor-miniapp.vercel.app/splash.png",
+    "splashBackgroundColor": "#0b0b0b",
+    "webhookUrl": "https://https://raptor-miniapp.vercel.app/api/webhook",
+    "subtitle": "alpha with credibility",
+    "description": "alpha with credibility",
     "primaryCategory": "finance"
   },
   "accountAssociation": {
     "header": "eyJmaWQiOjY3MzEyNiwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDQ2RkU3ZDUxRTNiOTA4MENDY0VDMTJBNjc1ZjYzQzg5MkEyYzBEM0YifQ",
-    "payload": "eyJkb21haW4iOiJhYXZlLWVhcm4udmVyY2VsLmFwcCJ9",
-    "signature": "Obk1UWkkzvfIUVdAqqFAfwa9U+MpnK3xp5690khGuu4ER8DV4LCbEvmFltFmlTJRAH2xYO/7BEKhEvdN3AkcdBs="
+    "payload": "eyJkb21haW4iOiJodHRwczovL3JhcHRvci1taW5pYXBwLnZlcmNlbC5hcHAifQ",
+    "signature": "zKQRy9IWi9GZo9cACU02uuxsXpA6BvB3gTGJtop7E5M+yIx3rjOge5TzZRejejnLTYwZbMfDWLv04DBRw3qAUBs="
   }
 }

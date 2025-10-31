@@ -85,7 +85,7 @@ export default function WithdrawPage() {
           <div className="flex items-center justify-center space-x-4 mb-6">
             <div className="relative w-12 h-12">
               <Image
-                src="/r-logo.png"
+                src="/logo.png"
                 alt="RAPTOR Logo"
                 fill
                 className="object-contain"

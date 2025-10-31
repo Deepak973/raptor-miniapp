@@ -40,7 +40,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 mx-auto mb-4 flex items-center justify-center cursor-pointer overflow-hidden">
             <img
-              src="/r-logo.png"
+              src="/logo.png"
               alt="Raptor Logo"
               className="w-full h-full object-contain"
             />
