@@ -2,12 +2,12 @@
   "frame": {
     "name": "Raptor",
     "version": "1",
-    "iconUrl": "https://https://raptor-miniapp.vercel.app/icon.png",
-    "homeUrl": "https://https://raptor-miniapp.vercel.app",
-    "imageUrl": "https://https://raptor-miniapp.vercel.app/image.png",
-    "splashImageUrl": "https://https://raptor-miniapp.vercel.app/splash.png",
+    "iconUrl": "https://raptor-miniapp.vercel.app/icon.png",
+    "homeUrl": "https://raptor-miniapp.vercel.app",
+    "imageUrl": "https://raptor-miniapp.vercel.app/image.png",
+    "splashImageUrl": "https://raptor-miniapp.vercel.app/splash.png",
     "splashBackgroundColor": "#0b0b0b",
-    "webhookUrl": "https://https://raptor-miniapp.vercel.app/api/webhook",
+    "webhookUrl": "https://raptor-miniapp.vercel.app/api/webhook",
     "subtitle": "alpha with credibility",
     "description": "alpha with credibility",
     "primaryCategory": "finance"
