@@ -12,9 +12,10 @@
     "description": "alpha with credibility",
     "primaryCategory": "finance"
   },
+
   "accountAssociation": {
     "header": "eyJmaWQiOjY3MzEyNiwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDQ2RkU3ZDUxRTNiOTA4MENDY0VDMTJBNjc1ZjYzQzg5MkEyYzBEM0YifQ",
-    "payload": "eyJkb21haW4iOiJodHRwczovL3JhcHRvci1taW5pYXBwLnZlcmNlbC5hcHAifQ",
-    "signature": "zKQRy9IWi9GZo9cACU02uuxsXpA6BvB3gTGJtop7E5M+yIx3rjOge5TzZRejejnLTYwZbMfDWLv04DBRw3qAUBs="
+    "payload": "eyJkb21haW4iOiJyYXB0b3ItbWluaWFwcC52ZXJjZWwuYXBwIn0",
+    "signature": "u2ZquhERSwyptOkZw5/myukjYhYQQWYU7XFERyplMkVDsmIXbSjDswBnvHzsWNZ6ob3lajUxr4WeLN1a0qlsghs="
   }
 }
