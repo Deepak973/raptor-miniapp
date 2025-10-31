@@ -185,6 +185,109 @@ export default function App() {
             </div>
           </div>
         </section>
+
+        {/* How It Works Section */}
+        <section className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 w-full">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 font-mono">
+              <span className="text-gray-400">{"//"}</span> how_it_works
+            </h2>
+            <p className="text-gray-400 font-mono text-xs sm:text-sm max-w-2xl mx-auto">
+              Simple steps to participate in the prediction market
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+            {/* Step 1 */}
+            <div className="glass-panel rounded-xl p-4 sm:p-6 border border-[#00FF88]/20 hover:border-[#00FF88]/40 transition-all">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#00FF88]/20 flex items-center justify-center">
+                  <span className="text-lg sm:text-xl font-bold text-[#00FF88] font-mono">
+                    01
+                  </span>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-base sm:text-lg font-bold text-[#00FF88] mb-2 font-mono">
+                    Create Alpha
+                  </h3>
+                  <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
+                    Stake USDC and make a price prediction. Set target price and
+                    expiry time. Your credibility is on the line.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Step 2 */}
+            <div className="glass-panel rounded-xl p-4 sm:p-6 border border-red-500/20 hover:border-red-500/40 transition-all">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-red-500/20 flex items-center justify-center">
+                  <span className="text-lg sm:text-xl font-bold text-red-400 font-mono">
+                    02
+                  </span>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-base sm:text-lg font-bold text-red-400 mb-2 font-mono">
+                    Challenge
+                  </h3>
+                  <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
+                    Opponents bet against your prediction by staking 10% of your
+                    stake. Up to 10 opponents can challenge each alpha.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Step 3 */}
+            <div className="glass-panel rounded-xl p-4 sm:p-6 border border-blue-500/20 hover:border-blue-500/40 transition-all">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-500/20 flex items-center justify-center">
+                  <span className="text-lg sm:text-xl font-bold text-blue-400 font-mono">
+                    03
+                  </span>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-base sm:text-lg font-bold text-blue-400 mb-2 font-mono">
+                    Settle
+                  </h3>
+                  <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
+                    After expiry, UMA Oracle resolves the price. Winners split
+                    the pool proportionally. Trustless and automated.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional Info */}
+          <div className="mt-8 sm:mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+            <div className="glass-panel rounded-xl p-4 sm:p-5 border border-[#00FF88]/10">
+              <div className="flex items-center gap-3 mb-2">
+                <div className="text-xl sm:text-2xl">💰</div>
+                <h4 className="text-sm sm:text-base font-bold text-white font-mono">
+                  Stakes Matter
+                </h4>
+              </div>
+              <p className="text-xs sm:text-sm text-gray-400 leading-relaxed">
+                Real money at stake builds genuine credibility. No fake signals
+                or empty predictions.
+              </p>
+            </div>
+
+            <div className="glass-panel rounded-xl p-4 sm:p-5 border border-[#00FF88]/10">
+              <div className="flex items-center gap-3 mb-2">
+                <div className="text-xl sm:text-2xl">🔒</div>
+                <h4 className="text-sm sm:text-base font-bold text-white font-mono">
+                  Trustless Resolution
+                </h4>
+              </div>
+              <p className="text-xs sm:text-sm text-gray-400 leading-relaxed">
+                UMA Oracle provides unbiased price data. No manual intervention
+                or centralized decisions.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
