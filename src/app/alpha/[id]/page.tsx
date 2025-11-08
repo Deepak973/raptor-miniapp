@@ -737,7 +737,7 @@ export default function AlphaDetails() {
                     )}\n\nChallenge this prediction on RAPTOR! 🚀`,
                     embeds: [
                       {
-                        path: `/alpha/${alphaId}`,
+                        path: `https://farcaster.xyz/miniapps/1vynBOFLBFKx/raptor/alpha/${alphaId}`,
                       },
                     ],
                   }}
